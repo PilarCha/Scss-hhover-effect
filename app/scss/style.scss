@@ -1,0 +1,17 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #101010;
+  color: #ffffff;
+  font-family:'Poppin',Ariel, Helvetica, sanc-serif;
+  font-size: 1.25;
+  line-height: 1.3;
+}
