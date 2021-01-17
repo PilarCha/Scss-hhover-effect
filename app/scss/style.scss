@@ -58,11 +58,21 @@ a, a:visited {
 
     @media (min-width: 59em) {
       position: relative;
-      display: block;
-      // opacity:  0;
+      display: grid;
+      justify-content: center;
+      align-items: center;
       background-color: rgba(0,0,0,0.5);
       grid-column: 1 / 4;
       grid-row: 1/3;
+    }
+
+    span {
+      display: inline-block;
+      border: 2px solid #fff;
+      padding: 1rem 3rem;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 700;
     }
   }
 
